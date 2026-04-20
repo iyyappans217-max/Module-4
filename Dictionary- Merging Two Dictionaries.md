@@ -10,9 +10,20 @@ To write a Python program that merges **two dictionaries** and combines their ke
 3. Call the `merge()` function and print the merged dictionary.
 
 ## 🧾 Program
+```
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'b': 3, 'c': 4}
 
-Add code here
+def merge(d1, d2):
+    return {**d1, **d2}
+
+result = merge(dict1, dict2)
+
+print(result)
+```
 
 ## Output
+<img width="1922" height="1023" alt="image" src="https://github.com/user-attachments/assets/151a78bd-5940-4a4f-99d3-38b790aa2f87" />
 
 ## Result
+Hence successfully done using VSCODE.
