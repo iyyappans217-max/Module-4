@@ -1,4 +1,3 @@
-<img width="1922" height="984" alt="image" src="https://github.com/user-attachments/assets/0240e120-c2ee-4822-a747-db00b3e1a131" /># File Handling in Python: Count Lines Not Starting with 'T'
 
 ## 🎯 Aim
 To write a Python program that counts the number of lines in a text file `story.txt` that do **not** start with the alphabet `'T'`.
