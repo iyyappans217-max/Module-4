@@ -30,9 +30,20 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-Add Code here
+```
+d = {'b': 'banana', 'a': 'apple', 'c': 'cherry'}
 
+# Sort by keys
+sorted_keys = dict(sorted(d.items()))
+
+# Sort by values
+sorted_values = dict(sorted(d.items(), key=lambda x: x[1]))
+
+print("Sorted by keys:", sorted_keys)
+print("Sorted by values:", sorted_values)
+```
 ## Sample Output
+<img width="1922" height="1029" alt="image" src="https://github.com/user-attachments/assets/bc44c1b3-72a7-4f87-a664-b43e8605a454" />
 
 ## Result
-
+Hence successfully done using VSCODE.
